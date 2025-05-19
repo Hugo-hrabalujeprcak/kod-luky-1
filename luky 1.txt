@@ -1,0 +1,99 @@
+while (nazivu == true)
+{
+   WakeUp();
+   Work();
+   Eat();
+   Sleep();
+}
+
+
+int a = 1;
+while (a < 10)
+{
+  Console.WriteLine(a);
+  a += 2;
+}
+
+
+while (1 + 1 == 2)
+{
+   // dělej věc
+   // dělej další věc
+   // udělej třetí věc
+}
+
+
+int a = 1;
+while (a < 10)
+{
+  Console.WriteLine(a);
+  a += 2;
+}
+
+
+string hadaneSlovo = "ananas";
+int pocetPokusu = 5;
+int pocitadlo = 0;
+while (pocitadlo < pocetPokusu)
+{
+  // sem doplníš kód :)
+  pocitadlo += 1;
+}
+
+
+string hadaneSlovo = "ananas";
+int pocetPokusu = 5;
+int pocitadlo = 0;
+while (pocitadlo < pocetPokusu)
+{
+   string vstup = Console.ReadLine();
+   if (vstup == "ananas")
+   {
+       Console.WriteLine("TREFIL SES!");
+       break;
+   }
+   pocitadlo += 1;
+}
+
+
+int pocet = 0;
+while (pocet < 60)
+{
+   Console.Write(pocet);
+   pocet += 1;
+}
+
+
+int X = 10;
+while (X > 0)
+{
+   Console.Write(X);
+   X += 1;
+}
+
+
+int X = 0;
+while (X <= 20)
+{
+   if (X == 8)
+   {
+       Console.Write("ahoj");
+   }
+   else
+   {
+       Console.Write(X);
+   }
+   X += 1;
+}
+
+
+string veta = " ";
+int X = 0;
+while (X < 5)
+{
+   string slovo = Console.ReadLine();
+   veta += slovo;
+   Console.WriteLine("Zbývající počet slov: " + X);
+   X += 1;
+}
+Console.WriteLine(veta);
